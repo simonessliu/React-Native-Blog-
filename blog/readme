@@ -1,0 +1,9 @@
+# To create a json server
+1. we need to go back to our git folder which are the parent folder of current file
+2. create a folder called jsonserver
+3. into that folder we init a package.json by npm init
+4. then we install json-server and ngrok
+5. open the jsonserver in code
+6. we create a file named db.json, and initialize the data 
+7. in package.json we add 2 scripts with db: json-server -w db.json  and  tunnel : ngrok http 3000
+8. run the following command in 2 seperate cmd, 1. npm run db and then npm run tunnel
