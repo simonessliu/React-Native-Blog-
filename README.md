@@ -11,6 +11,8 @@
 8. run the following command in 2 seperate cmd, 1. npm run db and then npm run tunnel
 
 ps: as we are using ngrok for free, as a result every 8 hours we need to update the url link 
+![ngrok](https://user-images.githubusercontent.com/52482120/65219796-b1bbcf00-dafc-11e9-8ed9-2587014d8d12.png)
+
 
 # To run this app
 1. basically we need to open 3 terminals
@@ -21,7 +23,7 @@ ps: as we are using ngrok for free, as a result every 8 hours we need to update 
 initializing expo app by running: npx expo-cli init name, cd to that folder and run npm -i and then running expo start
 installing react-navigation, we also need to install theses packages seperately
 
-![](images/'install navigation up'.png)
+![install navigation up](https://user-images.githubusercontent.com/52482120/65219774-9f419580-dafc-11e9-87a4-de95cc00de80.png)
 
 1. I use context to pass info among different components, and in order to make the context reuseable, also created an BlogContext file, so everytime we add a new action, we can pass that action to blogcontext 
 2. using axios to fetch the data from the json server, to create axios, we put that 'dynamic' link(8hours) provided by ngrok which we can found on the cmd into axios file
