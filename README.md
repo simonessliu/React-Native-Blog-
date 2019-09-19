@@ -2,6 +2,7 @@
 
 # To create a json server
 1. the jsonserver folder can be found at: 
+https://github.com/simonessliu/JsonTestServer
 2. create a folder called jsonserver
 3. into that folder we init a package.json by npm init -y
 4. then we install json-server and ngrok from the command line
