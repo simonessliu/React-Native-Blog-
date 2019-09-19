@@ -21,6 +21,8 @@ ps: as we are using ngrok for free, as a result every 8 hours we need to update 
 initializing expo app by running: npx expo-cli init name, cd to that folder and run npm -i and then running expo start
 installing react-navigation, we also need to install theses packages seperately
 
+![]("blog/images/install navigation up")
+
 1. I use context to pass info among different components, and in order to make the context reuseable, also created an BlogContext file, so everytime we add a new action, we can pass that action to blogcontext 
 2. using axios to fetch the data from the json server, to create axios, we put that 'dynamic' link(8hours) provided by ngrok which we can found on the cmd into axios file
 3. so for each axios method like axios.get('/abc') the url inside the get() will be added after the ngork dynamic link 
